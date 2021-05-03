@@ -18,7 +18,6 @@
 # (reference code: https://github.com/actualize-chi-2021-03/practice_ruby/blob/main/weather-app.rb)
 
 
-# api_key = "0aa7e3efcce7992cbb076f90265a46a6"
 # # city = "bronx"
 
 # puts "Weather app:"
