@@ -17,8 +17,6 @@
 # 8:26
 # (reference code: https://github.com/actualize-chi-2021-03/practice_ruby/blob/main/weather-app.rb)
 
-
-# api_key = "0aa7e3efcce7992cbb076f90265a46a6"
 # # city = "bronx"
 
 # puts "Weather app:"
@@ -42,7 +40,7 @@ require "http"
 def get_weather()
   puts "Name a city:"
   city = gets.chomp
-  # api_key = "0aa7e3efcce7992cbb076f90265a46a6"
+ 
   response = HTTP.get("https://api.openweathermap.org/data/2.5/weather?q=#{city}&units=imperial&appid=#{ENV["OPEN_WEATHER_API_KEY"]}&units=imperial")
   city_arr = []
   city_arr << city
